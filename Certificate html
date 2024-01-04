@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blink{
+            animation: blinker 1.5s linear infinite;
+            color:black;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50%{
+                opacity: 0;
+            }
+            
+        }
+        </style>
+</head>
+<body style="background-color: pink;">
+    <div style="margin-left: 50px"; class="Container">
+        <div class="Main">
+            <div class="Info">
+                    <div class="Skills">
+                        <h1 class="blink" style="font-size: 50px;text-align: center;"><u>My CERTIFICATIONS</u></h1><br>
+                        <div class="SkillContainer">
+                        <h2>1.Certified in WIPRO TALENTNEXT Course Offered By Wipro</h2>
+                        <a class="blink" href="https://github.com/Niharikasitha/MY_CERTIFICATES/blob/main/INTERSHIP_ME.jpeg">Click Here To View Certificate</a>
+                        <h2>2.Certified in Big Data Course Offered By Coursera</h2>
+                        <a class="blink" href="https://github.com/Niharikasitha/MY_CERTIFICATES/blob/main/Big%20Data%20certificate.pdf">Click Here To View Certificate</a>
+                        <h2>3.Certified in Data Structures Course Offered By Coursera</h2>
+                        <a class="blink" href="https://github.com/Niharikasitha/MY_CERTIFICATES/blob/main/Data%20structures%20certificate.pdf">Click Here To View Certificate</a>
+                        <h2>4.Certified in Cloud Computing Basic Course Offered By Coursera</h2>
+                        <a class="blink" href="https://github.com/Niharikasitha/MY_CERTIFICATES/blob/main/cloud%20computing%20basics%20certificate.pdf">Click Here To View Certificate</a>
+                        <h2>5.Certified in Operating Systems Course Offered By Coursera</h2>
+                        <a class="blink" href="https://github.com/Niharikasitha/MY_CERTIFICATES/blob/main/Operating%20systems%20certificate.pdf">Click Here To View Certificate</a>
+                        <h2>4.Certified in Cloud Computing Foudation Course Offered By Coursera</h2>
+                        <a class="blink" href="https://github.com/Niharikasitha/MY_CERTIFICATES/blob/main/cloud%20computing%20foundation%20certificate.pdf">Click Here To View Certificate</a>
+                        
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
